@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(237, 130, 59);
+    
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight:500 ;
+    background-color: white;
+}
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight:500 ;
+    background-color: white;
+}
+
+#nav h1{
+ font-weight: 500;
+ font-size: 22px;
+ text-transform: uppercase;
+}
+
+#nav button{
+ padding: 7px 12px;
+ border-radius: 50px;
+ border: 1.5px solid black;
+ font-size: 16px;
+ font-weight: 600;
+}
+#btn2{
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+#main>h1{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 170px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);  
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);  
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);  
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+#arr{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+#btm-last{
+
+    display: flex;
+    align-items:center;
+    /* justify-content: space-between; */
+    padding: 0px 40px; 
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    font-size: 30px;
+    font-weight: 50;
+}
